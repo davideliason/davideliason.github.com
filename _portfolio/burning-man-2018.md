@@ -14,7 +14,7 @@ sidebar:
 
    
 gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
+  - url: /assets/images/burning_man_2018/the_runaway_robot.jpg
     image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
   - url: /assets/images/unsplash-gallery-image-2.jpg
