@@ -6,11 +6,13 @@ categories: jekyll update
 
 ---
 
-Tweaking my art sculpture's neoPixels and ultrasonic sensor at a McDonald's booth, shamelessly enjoying free coffee refills, I earned a few sidelong glances (aka "what the heck?!") as I got ready to present 'BSG Enigma' at [SOAK event](http://soakpdx.com/) this weekend. 
+Tweaking my art sculpture's neoPixels and ultrasonic sensor at a McDonald's booth, shamelessly enjoying free coffee refills, I earned a few sidelong glances (aka "what the heck?!") as I got ready to present 'BSG Enigma' at the [SOAK event](http://soakpdx.com/) this weekend. 
 
 ![Finishing Touches]({{ https://davideliason.github.io/ }}/assets/images/last-minute-sensor-coffee.jpg)
 
-SOAK is the Pacific NW's mini-Burning Man event, focused on art, music and creative expression, and situated in a wide-open desert setting along a river that was perfect for camping to boot. This is a short piece about the inspiration for creating it, my experience, and lessons learned for the next time.
+SOAK is the Pacific NW's mini-Burning Man event, focused on art, music and creative expression, and situated in a wide-open desert setting along a river - perfect for camping. This is a short piece about the inspiration for, and experience for building this piece, as well as  lessons learned for the next time.
+
+---------------
 
 I'm a huge Battlestar Galactica fan since as a kid watching: 
 
