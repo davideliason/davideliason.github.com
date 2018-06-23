@@ -6,6 +6,8 @@ main:
     url: /about/
   - title: "Github"
     url: https://github.com/davideliason
+  - title: "Posts"
+    url: /year-archive/
  
  
 
