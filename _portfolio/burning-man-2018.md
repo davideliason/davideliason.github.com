@@ -30,6 +30,6 @@ I'm currently building a project for Burning Man...
 
 {% include gallery caption="Rex the robot: conscious, rejected, faithful. What happens after idealism wears off.." %}
 
-Conceptually, I want to explore...
+Conceptually, I want to explore the spectrum between a robot who is conscious, a human who has become objectified and/or densistized to being emotionally isolated, and the ways each can complement the other. In a dystopian society, what might this look like?
 
 Tecnically, I'll be starting with using a Teensy 3.6 microcontroller, Octo adaptor, and WS2811 LED strips and possibly adding more interesting things if things don't go sideways. Baby steps ;)
