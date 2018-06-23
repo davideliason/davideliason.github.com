@@ -6,7 +6,7 @@ categories: jekyll update
 
 ---
 
-Tweaking my art sculpture's neoPixels and ultrasonic sensor at a McDonald's booth, shamelessly enjoying free coffee refills, I earned a few sidelong glances (aka "what the heck?!") as I got ready to present it at  [SOAK event](http://soakpdx.com/) this weekend. SOAK is the Pacific NW's mini-Burning Man event, focused on art, music and creative expression, and situated in a wide-open desert setting along a river that was perfect for camping to boot. This is a short piece about the inspiration for creating it, my experience, and lessons learned for the next time.
+Tweaking my art sculpture's neoPixels and ultrasonic sensor at a McDonald's booth, shamelessly enjoying free coffee refills, I earned a few sidelong glances (aka "what the heck?!") as I got ready to present 'BSG Enigma' at [SOAK event](http://soakpdx.com/) this weekend. SOAK is the Pacific NW's mini-Burning Man event, focused on art, music and creative expression, and situated in a wide-open desert setting along a river that was perfect for camping to boot. This is a short piece about the inspiration for creating it, my experience, and lessons learned for the next time.
 
 I'm a huge Battlestar Galactica fan...
 
