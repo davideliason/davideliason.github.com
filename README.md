@@ -1,3 +1,6 @@
 
+## Github pages using Jekyll blog and minimal mistakes theme
 
-- header/hero banner size ( 1280-1600px )
+### Misc: 
+
+- header/hero banner size ( 1280-1600px wide )
