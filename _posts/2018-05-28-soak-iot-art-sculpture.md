@@ -6,17 +6,17 @@ categories: jekyll update
 
 ---
 
-Tweaking my art sculpture's neoPixels and ultrasonic sensor at a McDonald's booth, shamelessly enjoying free coffee refills, I earned a few sidelong glances (aka "what the heck?!") as I got ready to present 'BSG Enigma' at [SOAK event](http://soakpdx.com/) this weekend. SOAK is the Pacific NW's mini-Burning Man event, focused on art, music and creative expression, and situated in a wide-open desert setting along a river that was perfect for camping to boot. This is a short piece about the inspiration for creating it, my experience, and lessons learned for the next time.
+Tweaking my art sculpture's neoPixels and ultrasonic sensor at a McDonald's booth, shamelessly enjoying free coffee refills, I earned a few sidelong glances (aka "what the heck?!") as I got ready to present 'BSG Enigma' at [SOAK event](http://soakpdx.com/) this weekend. 
+
+![Finishing Touches]({{ https://davideliason.github.io/ }}/assets/images/last-minute-sensor-coffee.jpg)
+
+SOAK is the Pacific NW's mini-Burning Man event, focused on art, music and creative expression, and situated in a wide-open desert setting along a river that was perfect for camping to boot. This is a short piece about the inspiration for creating it, my experience, and lessons learned for the next time.
 
 I'm a huge Battlestar Galactica fan...
 
-<figure class="half">
-    <a href="assets/images/bsg_battlestar.jpg"><img src="assets/images/bsg_battlestar.jpg"></a>
-    <a href="assets/images/original_bsg.jpg"><img src="assets/images/original_bsg.jpg"></a>
-    <figcaption>Battlestar Galactica: original and newer version</figcaption>
-</figure>
 
-![useful image]({{ https://davideliason.github.io/ }}/assets/images/bsg_battlestar.jpg)
+![Old School BSG]({{ https://davideliason.github.io/ }}/assets/images/original_bsg.jpg)
+![New BSG]({{ https://davideliason.github.io/ }}/assets/images/bsg_battlestar.jpg)
 
 
  and so of course I've watched and re-watched it many times. There are a lot of really intriguing metaphysical questions that are raised throughout the movie, but the series definitely rasies those topics much more in the final season - Starbuck dies but then re-appears again and even discovers her own corpse, a collective song is heard by select persons that draw them together, a Cylon--human couple have a living child whose blood can cure cancer, and so on. Anyways, since the theme of the event was "parallel universes", I thought this would be a perfect theme for that!
@@ -25,19 +25,19 @@ What I wanted: a raspberry pi running a linux OS and running as an Express serve
 
 I first started with building the enclosure for the raspberry pi - I used reclaimed wood as the materials, and used a planer, a joinder and various sanders to get the wood pieces smooth and squared. 
 
-![Enclosure](../assets/images/soak_enclosure_front.jpg "Making the enclosure")
+![Enclosure]({{ https://davideliason.github.io/ }}/assets/images/front_enclosure.jpg)
 
 Then the table saw and chop saw to cut the pieces. The side panels were made of acrylic, so as to display LED lighting within the project, these were cut using a band saw and drill press. 
 
-![Corner View](../assets/images/corner_view_enclosure.jpg "Corner view")
+![Corner View]({{ https://davideliason.github.io/ }}/assets/images/corner_enclosure.jpg)
 
 The opening for the raspberry pi screen was designed using Illustrator and cut using a laser cutter.
 
-![Making rpi frame](../assets/images/making_rpi_frame.jpg "Making the enclosure")
+![Top Opening for Display]({{ https://davideliason.github.io/ }}/assets/images/making_rpi_frame.jpg)
 
-![Laser-cut display opening](../assets/images/laser_cut_front.jpg "Laser cut with hand-made woodburning")
+![Laser cut display]({{ https://davideliason.github.io/ }}/assets/images/enclosure_BSG_Enigma_top.jpg)
 
-![The Whole Enclosure](../assets/images/bsg-enigma-enclosure.jpg "BSG Enigma")
+![Entire Enclosure]({{ https://davideliason.github.io/ }}/assets/images/full_enclosure.jpg)
 
 Coding-wise, what I actually experienced was that it's much more complicated than I'd thought! It's pretty easy to install node.js and run an Express server on the raspberry pi, and actually my inital approach was to use PubNub as a cloud-source for Arduino data. However, I then began to think that the remote location of the event might make internet access very difficult, so I switched to creating a LAN.
 
@@ -47,14 +47,12 @@ A few snags: the rpi did not like the CRA installation, whcih was a big problem 
 
 On the other hand, I was running out of time (you can see my photo of working at McDonalds on finishing touches with my ultrasonic sensor and neoPixel strip) and my stress level was defnitely increasing, so many of these issues could probably be resolved. So, one lesson learned is to give much more time for unanticipated problems. The other lesson that I learned is to make sure to have multiple energy sources, as the LiPo battery and secondary battery pack discharged much faster than I'd anticipated.
 
-![Last Minute Tweaks](../assets/images/last_touches_SOAK2018.jpg "Coffee + Sensors")
-
 On the plus side, it felt really amazing to go to the event and show people my project and to have conversations around the BSG metaphysical questions, as well as the technical building of the sculpture. I met a few other artists, who I had subsequent conversations with, one even sharing all the technical data for how they built their amazing art sculpture. So, that is definitely inspiring for my next piece!
 
 On a slightly different note, it was an interesting experience since I didn't have stakes, so I had to whittle my own :)
 
-![Whittled Stakes](../assets/images/tent-stake-i-whittled.jpg "The Stakes Are High")
+![Whittled Stakes]({{ https://davideliason.github.io/ }}/assets/images/tent-stake-i-whittled.jpg)
 
-![Making A Stake](../assets/images/knife-and-stake.jpg "Let's do this!")
+![Making a stake]({{ https://davideliason.github.io/ }}/assets/images/knife-and-stake.jpg)
 
-![All Done](../assets/images/soak-tent-sculpture.jpg "I feel like Daniel Boone")
+![All done]({{ https://davideliason.github.io/ }}/assets/images/my-tent-and-sculpture.jpg)
