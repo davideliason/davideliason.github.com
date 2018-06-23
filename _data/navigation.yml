@@ -1,10 +1,11 @@
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+
   - title: "Posts"
     url: /year-archive/
   - title: "About"
     url: /about/
+  - title: "Contact"
+    url: /contact/
   - title: "Tags"
     url: /tags/
   - title: "Pages"
