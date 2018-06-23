@@ -4,6 +4,8 @@ main:
     url: /projects/
   - title: "About"
     url: /about/
+  - title: "Github"
+    url: https://github.com/davideliason
  
  
 

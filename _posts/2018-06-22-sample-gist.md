@@ -10,6 +10,6 @@ classes:
 
 ---
 
-This is a *splash* page
+This is a sample gist
 
 {% gist e15836dccf19226c2b3ddd7af30958e2 %}
