@@ -1,27 +1,24 @@
 main:
 
-
-  - title: "About"
-    url: /about/
-  - title: "Contact"
-    url: /contact/
   - title: "Projects"
     url: /projects/
+  - title: "About"
+    url: /about/
+ 
+ 
 
 
 
 docs:
   - title: General
     children:
-      - title: "Contact"
-        url: /contact/
-      - title: "About"
-        url: /about/
       - title: "Projects"
         url: /projects/
       - title: "David-made"
         url: http://david-made.com/
       - title: "Github"
         url: https://github.com/davideliason
+      - title: "Contact"
+        url: /contact/
 
 
