@@ -5,6 +5,8 @@ main:
     url: /about/
   - title: "Contact"
     url: /contact/
+  - title: "Projects"
+    url: /projects/
 
 
 
@@ -15,6 +17,8 @@ docs:
         url: /contact/
       - title: "About"
         url: /about/
+      - title: "Projects"
+        url: /projects/
       - title: "David-made"
         url: http://david-made.com/
       - title: "Github"
