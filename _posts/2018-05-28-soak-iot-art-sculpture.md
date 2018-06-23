@@ -11,9 +11,9 @@ Tweaking my art sculpture's neoPixels and ultrasonic sensor at a McDonald's boot
 I'm a huge Battlestar Galactica fan...
 
 <figure class="half">
-    <a href="../images/bsg_battlestar.jpg"><img src="../images/bsg_battlestar.jpg"></a>
-    <a href="../images/original_bsg.jpg"><img src="../images/original_bsg.jpg"></a>
-    <figcaption>Caption describing these two images.</figcaption>
+    <a href="assets/images/bsg_battlestar.jpg"><img src="assets/images/bsg_battlestar.jpg"></a>
+    <a href="assets/images/original_bsg.jpg"><img src="assets/images/original_bsg.jpg"></a>
+    <figcaption>Battlestar Galactica: original and newer version</figcaption>
 </figure>
 
 
