@@ -1,6 +1,6 @@
 ---
-title: "Burning Man 2018"
-excerpt: "Buildling an interactive art sculpture to amaze, inspire, and also tell a Cool Story involving robots."
+title: "Art: Burning Man 2018"
+excerpt: "Buildling an interactive art sculpture involving (themes) humanity, alienation (tech) full-stack JS + hardware."
 header:
   image: /assets/images/lunar_1356_header.jpg
   teaser: /assets/images/lunar_1356_header.jpg
