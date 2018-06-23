@@ -29,13 +29,15 @@ I first started with building the enclosure for the raspberry pi - I used reclai
 
 Then the table saw and chop saw to cut the pieces. The side panels were made of acrylic, so as to display LED lighting within the project, these were cut using a band saw and drill press. 
 
-![Corner View]({{ https://davideliason.github.io/ }}/assets/images/corner_enclosure.jpg)
-
-The opening for the raspberry pi screen was designed using Illustrator and cut using a laser cutter.
+At first, I was tempted to try and cut out the display area using a band saw...
 
 ![Top Opening for Display]({{ https://davideliason.github.io/ }}/assets/images/making_rpi_frame.jpg)
 
+...but wiser counsel suggested making the opening for the raspberry pi screen by using Illustrator and cut using a laser cutter.
+
 ![Laser cut display]({{ https://davideliason.github.io/ }}/assets/images/enclosure_BSG_Enigma_top.jpg)
+
+Bringing it all together, I came up with a solid case that was easy to carry around and offered room for sensor expansion down the line:
 
 ![Entire Enclosure]({{ https://davideliason.github.io/ }}/assets/images/full_enclosure.jpg)
 
@@ -43,7 +45,7 @@ Coding-wise, what I actually experienced was that it's much more complicated tha
 
 A few snags: the rpi did not like the CRA installation, whcih was a big problem because that meant that if I wanted to work with the React/Redux libraries, I'd need to work with Webpack, something I hadn't done for awhile. Another issue was that working with Johnny-Five, the Javascript library allowing interactions with IoT, kept giving me attitude in terms of the sensors.
 
-![my-art-piece](../assets/images/art-sculpture-closer_pic.jpg "TaDa")
+![closer]({{ https://davideliason.github.io/ }}/assets/images/art-sculpture-closer_pic.jpg)
 
 On the other hand, I was running out of time (you can see my photo of working at McDonalds on finishing touches with my ultrasonic sensor and neoPixel strip) and my stress level was defnitely increasing, so many of these issues could probably be resolved. So, one lesson learned is to give much more time for unanticipated problems. The other lesson that I learned is to make sure to have multiple energy sources, as the LiPo battery and secondary battery pack discharged much faster than I'd anticipated.
 
