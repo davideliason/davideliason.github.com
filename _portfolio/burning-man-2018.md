@@ -2,8 +2,8 @@
 title: "Burning Man 2018"
 excerpt: "Buildling an interactive art sculpture to amaze, inspire, and also tell a Cool Story involving robots."
 header:
-  image: /assets/images/foo-bar-identity.jpg
-  teaser: /assets/images/foo-bar-identity-th.jpg
+  image: /assets/images/lunar_1356_header.jpg
+  teaser: /assets/images/lunar_1356_header.jpg
 sidebar:
   - title: "Role"
     image: http://placehold.it/350x250
