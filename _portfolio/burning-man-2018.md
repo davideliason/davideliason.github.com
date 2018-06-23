@@ -6,9 +6,9 @@ header:
   teaser: /assets/images/lunar_1356_header.jpg
 sidebar:
   - title: "Role"
-    image: http://placehold.it/350x250
+    image: /assets/images/david-made.gif
     image_alt: "logo"
-    text: "Designer, Front-End Developer"
+    text: "Designer, Maker, Atom & Code Dev, Storyteller"
   - title: "Vision"
     text: "Humanity and Robot: cloud of objectification and alientation."
 
