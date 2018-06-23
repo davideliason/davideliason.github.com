@@ -6,5 +6,5 @@ permalink: /contact/
 ---
 
 
-Contact me at davethemaker@gmail.com
+Please contact me at davethemaker@gmail.com
 
