@@ -3,11 +3,10 @@ main:
   - title: "Github"
     url: https://github.com/davideliason
   - title: "Projects"
-    url: /projects/
+    url: /portfolio/
   - title: "Archives"
     url: /year-archive/
-  - title: "Projects"
-    url: /portfolio/
+
 
 docs:
   - title: General
