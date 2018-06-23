@@ -6,13 +6,8 @@ main:
     url: /projects/
   - title: "Archives"
     url: /year-archive/
-
- 
-
- 
- 
-
-
+  - title: "Portfolio"
+    url: /portfolio/
 
 docs:
   - title: General
