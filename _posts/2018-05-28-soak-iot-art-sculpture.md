@@ -1,4 +1,3 @@
-
 ---
 layout: single
 title: An IoT Art Sculpture for SOAK PDX 2018
