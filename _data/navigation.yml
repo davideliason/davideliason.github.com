@@ -1,13 +1,15 @@
 main:
 
-  - title: "Projects"
-    url: /projects/
-  - title: "About"
-    url: /about/
   - title: "Github"
     url: https://github.com/davideliason
+  - title: "Projects"
+    url: /projects/
   - title: "Posts"
     url: /year-archive/
+  - title: "About"
+    url: /about/
+ 
+
  
  
 
