@@ -6,7 +6,7 @@ main:
     url: /projects/
   - title: "Archives"
     url: /year-archive/
-  - title: "Portfolio"
+  - title: "Projects"
     url: /portfolio/
 
 docs:

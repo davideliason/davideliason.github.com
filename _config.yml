@@ -68,9 +68,9 @@ tag_archive:
   path: /tags/    
 
 collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
+    portfolio:
+      output: true
+      permalink: /:collection/:path/
 
 defaults:
   # _portfolio
