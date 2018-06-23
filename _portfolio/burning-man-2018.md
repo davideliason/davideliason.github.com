@@ -1,5 +1,5 @@
 ---
-title: "Sample Gallery Post"
+title: "Burning Man 2018"
 excerpt: "Buildling an interactive art sculpture to amaze, inspire, and also tell a Cool Story involving robots."
 header:
   image: /assets/images/foo-bar-identity.jpg
@@ -30,4 +30,6 @@ I'm currently building a project for Burning Man...
 
 {% include gallery caption="This is a sample gallery to go along with this case study." %}
 
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
+Conceptually, I want to explore...
+
+Tecnically, I'll be starting with using a Teensy 3.6 microcontroller, Octo adaptor, and WS2811 LED strips and possibly adding more interesting things if things don't go sideways. Baby steps ;)

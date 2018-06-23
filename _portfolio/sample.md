@@ -1,6 +1,6 @@
 ---
-title: "Burning Man 2018"
-excerpt: "Buildling an interactive art sculpture to amaze, inspire, and also tell a Cool Story involving robots."
+title: "Template Portfolio"
+excerpt: "Just a template."
 header:
   image: /assets/images/foo-bar-identity.jpg
   teaser: /assets/images/foo-bar-identity-th.jpg
@@ -26,7 +26,7 @@ gallery:
 
 ---
 
-I'm currently building a project for Burning Man...
+I'm a template...
 
 {% include gallery caption="This is a sample gallery to go along with this case study." %}
 
