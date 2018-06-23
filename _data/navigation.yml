@@ -6,10 +6,7 @@ main:
   - title: "Contact"
     url: /contact/
 
- 
 
-  - title: "External Link"
-    url: https://www.davethemaker.com
 
 docs:
   - title: General
@@ -18,4 +15,9 @@ docs:
         url: /contact/
       - title: "About"
         url: /about/
+      - title: "David-made"
+        url: http://david-made.com/
+      - title: "Github"
+        url: https://github.com/davideliason
+
 
