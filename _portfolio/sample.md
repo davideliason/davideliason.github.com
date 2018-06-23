@@ -1,5 +1,5 @@
 ---
-title: "Burning Man 2018"
+title: "Sample Gallery Post"
 excerpt: "Buildling an interactive art sculpture to amaze, inspire, and also tell a Cool Story involving robots."
 header:
   image: /assets/images/foo-bar-identity.jpg
