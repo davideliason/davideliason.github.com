@@ -47,7 +47,7 @@ Coding-wise, what I actually experienced was that it's much more complicated tha
 
 A few snags: the rpi did not like the CRA installation, whcih was a big problem because that meant that if I wanted to work with the React/Redux libraries, I'd need to work with Webpack, something I hadn't done for awhile. Another issue was that working with Johnny-Five, the Javascript library allowing interactions with IoT, kept giving me attitude in terms of the sensors.
 
-![closer]({{ https://davideliason.github.io/ }}/assets/images/art-sculpture-closer_pic.jpg)
+![In the Wild]({{ https://davideliason.github.io/ }}/assets/images/project_really_close.jpg)
 
 On the other hand, I was running out of time (you can see my photo of working at McDonalds on finishing touches with my ultrasonic sensor and neoPixel strip) and my stress level was defnitely increasing, so many of these issues could probably be resolved. So, one lesson learned is to give much more time for unanticipated problems. The other lesson that I learned is to make sure to have multiple energy sources, as the LiPo battery and secondary battery pack discharged much faster than I'd anticipated.
 
