@@ -9,8 +9,8 @@ sidebar:
     image: http://placehold.it/350x250
     image_alt: "logo"
     text: "Designer, Front-End Developer"
-  - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+  - title: "Vision"
+    text: "Humanity and Robot: cloud of objectification and alientation."
 
    
 gallery:
@@ -28,7 +28,7 @@ gallery:
 
 I'm currently building a project for Burning Man...
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
+{% include gallery caption="Rex the robot: conscious, rejected, faithful. What happens after idealism wears off.." %}
 
 Conceptually, I want to explore...
 
