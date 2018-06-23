@@ -16,6 +16,7 @@ I'm a huge Battlestar Galactica fan...
     <figcaption>Battlestar Galactica: original and newer version</figcaption>
 </figure>
 
+![useful image]({{ https://davideliason.github.io/ }}/assets/images/bsg_battlestar.jpg)
 
 
  and so of course I've watched and re-watched it many times. There are a lot of really intriguing metaphysical questions that are raised throughout the movie, but the series definitely rasies those topics much more in the final season - Starbuck dies but then re-appears again and even discovers her own corpse, a collective song is heard by select persons that draw them together, a Cylon--human couple have a living child whose blood can cure cancer, and so on. Anyways, since the theme of the event was "parallel universes", I thought this would be a perfect theme for that!
