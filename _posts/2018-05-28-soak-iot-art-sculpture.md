@@ -10,9 +10,10 @@ Tweaking my art sculpture's neoPixels and ultrasonic sensor at a McDonald's boot
 
 I'm a huge Battlestar Galactica fan...
 
-<img width="400px" alt="battlestar galactica" src="../assets/images/bsg.jpg">
+<img width="400px" alt="battlestar galactica" src="../images/bsg_battlestar.jpeg">
+<img width="400px" alt="battlestar galactica" src="../images/original_bsg.jpeg">
 
- and so (of course!) I've watched and re-watched it many times. There are a lot of really intriguing metaphysical questions that are raised throughout the movie, but the series definitely rasies those topics much more in the final season - Starbuck dies but then re-appears again and even discovers her own corpse, a collective song is heard by select persons that draw them together, a Cylon--human couple have a living child whose blood can cure cancer, and so on. Anyways, since the theme of the event was "parallel universes", I thought this would be a perfect theme for that!
+ and so of course I've watched and re-watched it many times. There are a lot of really intriguing metaphysical questions that are raised throughout the movie, but the series definitely rasies those topics much more in the final season - Starbuck dies but then re-appears again and even discovers her own corpse, a collective song is heard by select persons that draw them together, a Cylon--human couple have a living child whose blood can cure cancer, and so on. Anyways, since the theme of the event was "parallel universes", I thought this would be a perfect theme for that!
 
 What I wanted: a raspberry pi running a linux OS and running as an Express server on node.js, interacting on a low-level with connected (by wifi, BLE or other) Arduinos for sensory data and also stimulating actions based on event handlers. At the same time, rendering visual responses on either a mini projector, LED displays, or such. 
 
