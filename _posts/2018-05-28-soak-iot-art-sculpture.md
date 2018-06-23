@@ -12,10 +12,12 @@ Tweaking my art sculpture's neoPixels and ultrasonic sensor at a McDonald's boot
 
 SOAK is the Pacific NW's mini-Burning Man event, focused on art, music and creative expression, and situated in a wide-open desert setting along a river that was perfect for camping to boot. This is a short piece about the inspiration for creating it, my experience, and lessons learned for the next time.
 
-I'm a huge Battlestar Galactica fan...
-
+I'm a huge Battlestar Galactica fan since as a kid watching: 
 
 ![Old School BSG]({{ https://davideliason.github.io/ }}/assets/images/original_bsg.jpg)
+
+and then feeling like a kid again being riveted watching the new series:
+
 ![New BSG]({{ https://davideliason.github.io/ }}/assets/images/bsg_battlestar.jpg)
 
 
