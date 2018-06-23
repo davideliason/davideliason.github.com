@@ -4,10 +4,9 @@ main:
     url: https://github.com/davideliason
   - title: "Projects"
     url: /projects/
-  - title: "Posts"
+  - title: "Archives"
     url: /year-archive/
-  - title: "About"
-    url: /about/
+
  
 
  
@@ -18,8 +17,9 @@ main:
 docs:
   - title: General
     children:
-      - title: "Projects"
-        url: /projects/
+
+      - title: "About"
+        url: /about/
       - title: "David-made"
         url: http://david-made.com/
       - title: "Github"
