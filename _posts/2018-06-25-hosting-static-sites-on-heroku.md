@@ -7,7 +7,7 @@ author_profile: true
 
 ---
 
-Last week I had to mow my parents lawn, and I knew it was Time To Spruce Up The Repos in my Github portfolio, too. Out went the repos that, well, just needed to go. What to do about that odd piece that was front-end only? How should that be posted?
+I recently decided that it was Time To Spruce Up The Repos in my Github portfolio, so... out went the repos that, well, just needed to go. What to do about that odd repo that was front-end only code only? How should that be posted without having to build up a framework around it?
 
 Following some online advice, I found that there's a pretty easy solution, which is to host it on Heroku. Here's the steps that I took to do so with a browser-based Babel and React application:
 
