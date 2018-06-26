@@ -18,5 +18,8 @@ Reading this, I just installed 'Physical Web' on my Android phone.
 
 To explore this, you would use a BLE beacon that supports the Eddystone protocol, this will allow you to broadcast an URL. That URL can be picked up by a phone or such. Hmmmmm...
 
-Really interesting possibilities!
+----------------
+[React Native Wrapper](https://github.com/Artirigo/react-native-kontaktio)
+
+Running this example started the react-native server, but did require an Android SDK to be installed. Not to that point yet...
 
