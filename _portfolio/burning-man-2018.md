@@ -11,7 +11,7 @@ sidebar:
     text: "Designer, Maker, Atom & Code Dev, Storyteller"
   - title: "Vision"
     text: "Humanity and Robot: cloud of objectification and alientation."
-
+author_profile: true
    
 gallery:
   - url: /assets/images/burning_man_2018/the_runaway_robot.jpg
