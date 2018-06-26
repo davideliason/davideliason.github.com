@@ -40,6 +40,14 @@ include: ["_pages"]
 
 search: true
 
+author:
+  name   : "David Eliason"
+  avatar : "/assets/images/bike_tour.jpg"
+  bio    : "I like coding with Javascript, coffee shops, and bike touring."
+  email  : # optional
+  uri    : "http://davethemaker.com/"
+  home   : # null (default), "absolute or relative url to link to author home"
+
 defaults:
   # _pages
   - scope:
