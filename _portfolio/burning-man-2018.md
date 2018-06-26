@@ -1,6 +1,9 @@
 ---
 title: "Art: Burning Man 2018"
 excerpt: "Buildling an interactive art sculpture involving (themes) humanity, alienation (tech) full-stack JS + hardware."
+
+author_profile: true
+
 header:
   image: /assets/images/lunar_1356_header.jpg
   teaser: /assets/images/lunar_1356_header.jpg
@@ -11,7 +14,6 @@ sidebar:
     text: "Designer, Maker, Atom & Code Dev, Storyteller"
   - title: "Vision"
     text: "Humanity and Robot: cloud of objectification and alientation."
-author_profile: true
    
 gallery:
   - url: /assets/images/burning_man_2018/the_runaway_robot.jpg
