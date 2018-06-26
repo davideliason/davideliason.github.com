@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 sidebar:
   nav: "docs"
+author_profile: true
   
 ---
 

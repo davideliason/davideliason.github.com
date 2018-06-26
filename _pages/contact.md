@@ -4,6 +4,7 @@ title: Contact
 permalink: /contact/
 sidebar:
   nav: "docs"
+author_profile: true
   
 ---
 

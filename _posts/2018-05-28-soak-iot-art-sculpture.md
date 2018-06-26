@@ -3,6 +3,7 @@ layout: single
 title: An IoT Art Sculpture for SOAK PDX 2018
 date:   2018-05-28 17:03:27 -0700
 categories: jekyll update
+author_profile: true
 
 ---
 
