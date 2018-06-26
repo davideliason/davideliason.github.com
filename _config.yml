@@ -44,7 +44,7 @@ author:
   name   : "David Eliason"
   avatar : "/assets/images/bike_tour.jpg"
   bio    : "I like coding with Javascript, coffee shops, and bike touring."
-  email  : # optional
+  email  : "davethemaker@gmail.com"
   uri    : "http://davethemaker.com/"
   home   : # null (default), "absolute or relative url to link to author home"
 
