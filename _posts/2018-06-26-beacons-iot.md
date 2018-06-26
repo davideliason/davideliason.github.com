@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Hosting Static Site on Heroku
+title: BLE Beacons, Eddystones, Physical Web
 date:   2018-06-25 17:03:27 -0700
 categories: heroku
 
