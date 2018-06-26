@@ -26,7 +26,7 @@ $ touch index.php
 ````
 <?php include_once("index.html"); ?>
 ````
-5, create a heroku repo for your code to go into:
+5. create a heroku repo for your code to go into:
 ````
 $ heroku create <your app name>
 ````
@@ -45,4 +45,4 @@ And that was it - my vanilla html file successfully rendered the React applicati
 
  [Github Repo](https://github.com/davideliason/react-todo-list)
 
- ![react to do](../assets/images/heroku-hosted-react.png)
+ ![Browser React]({{ https://davideliason.github.io/ }}/assets/images/heroku-hosted-react.png)
