@@ -48,7 +48,7 @@ author:
   uri    : "http://davethemaker.com/"
   home   : # null (default), "absolute or relative url to link to author home"
   twitter_username: "davideliason"
-github_username:  "davideliason"
+  github_username:  "davideliason"
 
 defaults:
   # _pages
