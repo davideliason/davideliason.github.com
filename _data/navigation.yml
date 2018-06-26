@@ -22,6 +22,6 @@ docs:
       - title: "Contact"
         url: /contact/
       - title: "Posts By Tags"
-        url: /tag-archive/
+        url: /tags/
 
 
