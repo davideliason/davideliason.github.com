@@ -17,27 +17,29 @@ title: David Eliason
 email: davethemaker@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   What I'm doing, working on, and who I am.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: "davideliason"
-github_username:  "davideliason"
+baseurl: # the subpath of your site, e.g. /blog
+url: https://davideliason.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: davideliason
+github_username:  davideliason
 avatar: 'https://avatars0.githubusercontent.com/u/4256758?s=400&u=1033de9305b3d87dadad3f2957cc871046dacd25&v=4" alt="David Eliason" itemprop="image"'
 
 # Build settings
 markdown: kramdown
 #theme: minima
 remote_theme: "mmistakes/minimal-mistakes"
+
+#Outputting
+permalink: /:categories/:title/
+paginate: 10 # amount of posts to show
+paginate_path: /page:num/
+include: ["_pages"]
+
 minimal_mistakes_skin: "air" # "default", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-gist
   - jemoji
-
-paginate: 10 # amount of posts to show
-paginate_path: /page:num/
-
-include: ["_pages"]
 
 search: true
 
