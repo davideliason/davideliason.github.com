@@ -17,7 +17,7 @@ To me, the most powerful moment was when Julia Silver got up on the stage with h
 
 Here's the song:
 
-![That We May All Rise]({{ https://davideliason.github.io/ }}/assets/images/Spiritual/Interfaith/SongThat_We_May_All_Rise_Song.jpg)
+![That We May All Rise]({{ https://davideliason.github.io/ }}/assets/images/Spiritual/Interfaith/That_We_May_All_Rise_Song.jpg)
 
 
 Lots of different groups and voices and opinions, but everyone was standing together in song, and it made me realize that beneath it all many have hearts and desires for shared values and dreams: community, building bridgets, helping each other. Some key words that I heard over and over again were 'love', 'compassion', and 'community' and it felt good to be part of a coming-together of people joining in that spirit.
