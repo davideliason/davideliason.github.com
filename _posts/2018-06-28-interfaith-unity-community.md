@@ -10,4 +10,4 @@ There feels like so much tension, anger, division in today's society that I real
 
 I did some volunteer work with Immanuel Luther Church over this past winter, and I hadn't realized how severe the problem is with homelessness in the community.
 
-![Finishing Touches]({{ https://davideliason.github.io/ }}/assets/images/Council_for_the_Homeless_nums 2017.pdf)
+![Finishing Touches]({{ https://davideliason.github.io/ }}/assets/images/2017-CFTH-Nums.jpg)
