@@ -1,8 +1,8 @@
 ---
 layout: single
-title: BLE Beacons, Eddystones, Physical Web
+title: Node.js and the Event Loop
 date:   2018-06-25 17:03:27 -0700
-categories: heroku
+categories: node.js
 author_profile: true
 
 ---
