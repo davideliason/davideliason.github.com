@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Node.js and the Event Loop
-date:   2018-06-25 17:03:27 -0700
+date:   2018-07-09 17:03:27 -0700
 categories: node.js
 author_profile: true
 
