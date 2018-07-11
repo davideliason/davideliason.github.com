@@ -17,4 +17,4 @@ var params = {
   ContentType:'text/html'
 };
 
-Those params are one of the parameters of the s3.upload method. With that change, the file opens correctly.
+Those params are used within the s3.upload method, and with that change, the file opens correctly.
