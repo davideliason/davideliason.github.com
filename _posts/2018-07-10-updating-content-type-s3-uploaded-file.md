@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Updating Content-Type in Uploaded S3 HTML file
-date:   2018-07-09 17:03:27 -0700
+date:   2018-07-10 17:03:27 -0700
 categories: node.js
 author_profile: true
 
