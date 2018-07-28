@@ -1,7 +1,7 @@
 ---
 layout: single
 title: AWS EC2 instance using ELB and simple route
-date:   2018-07-28
+date:  2018-07-28 17:03:27 -0700
 categories: aws
 author_profile: true
 
