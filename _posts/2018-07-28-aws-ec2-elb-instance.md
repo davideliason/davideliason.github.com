@@ -7,7 +7,7 @@ author_profile: true
 
 ---
 
-Lately I've been exploring moving my MERN applications up into the cloud using the AWS platform, and I thought I'd share how I configured setting up an EC2 instance using an Elastic Load Balancer.
+Lately I've been exploring moving my MERN applications up into the cloud using the AWS platform, and I thought I'd share how I configured setting up an EC2 instance using an Elastic Load Balancer. Hopefully it's useful!
 
 First, I set up two generic EC2 instances within my local Region (Oregon, or us-west-2), using an AWS Linux AMI, a bash script to first install updates, then spin up Apache server, make sure that that server always rebooted, and then creating a simple html file within the server's /var/www/html folder. So, at this point, there are two EC2 instances running.
 
