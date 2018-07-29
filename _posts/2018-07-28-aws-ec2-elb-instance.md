@@ -29,7 +29,7 @@ Now, when you register a domain name (and I'll use AWS's Route53 as an example),
 ### Back to the example
 With that as a backdrop, I'm now going to create a simple A route. I used the naked domain name, or the apex domain, which basically means without the 'www', and pointed it to the ELB IP. What that does, basically, is that this route will route the request to the ELB, which sits in front of the two EC2 previously located, and those EC2 content will be displayed. 
 
-Hopefully that was helpufl, definitely AWS has so much to offer it's insane!
+AWS has a lot of resources to offer, as I learn this ecosystem I'll continue to share what I've learned in case it's helpful to someone else :)
 
 
 
