@@ -17,5 +17,7 @@ For example, if I set the session using those four key values, I can then access
 
 In the example that I'm working right now, I successfully created a simple value attached to that session object, which was sent to the client as part of the response, and was still available with subsequent user/client requests. So, I've gotten a glimpse of what this can mean.
 
-It's important to note that there are four different ways of working with sessions: in memory (which isn't used for production), in a cookie (which is what we have used here), in a memory cache (like Redis or Memcached), or a database. In one of the blog posts I read, it was recommended to approach sessions using caches first, then cookies, and finally databases. 
+It's important to note that there are four different ways of working with sessions: in memory (which isn't used for production), in a cookie (which is what we have used here), in a memory cache (like Redis or Memcached), or a database. In one of the blog posts I read, it was recommended to approach sessions using caches first, then cookies, and finally databases.
+
+However, the disadvantages of using cookies is that it adds to the overhead of a http request or response, with that added data being carried each way. The amount of data is relatively small, but it still adds overhead. Also, it's essential to keep the cookie secret just that - a secret, because if exposed, then the client's data is as well.
 
