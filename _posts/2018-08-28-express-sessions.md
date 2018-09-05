@@ -1,11 +1,12 @@
 ---
 layout: single
-title: Express Sessions
-date:   2018-08-028 16:26:27 -0700
-categories: express
+title: Express sessions
+date:   2018-08-28 17:03:27 -0700
+categories: sessions
 author_profile: true
 
 ---
+
 
 I'm entrolled in the MongoDB University M101JS class, already entering week 4!, and it's been a deep dive in CRUD. I've been taking lots of notes, but for me the best thing to make sure it sticks is to put what I'm learning into practice. So, I'm working on tying in a MongoDB instance to node.js + express. I'm going to share what I learn as I go along.
 
