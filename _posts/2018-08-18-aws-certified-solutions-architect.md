@@ -20,3 +20,7 @@ The AWS Certified Solutions Architect – Associate exam is intended for individ
 
 [Criteria](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
 
+
+
+
+![Enclosure]({{ https://davideliason.github.io/ }}/assets/images/soak2018/front_enclosure.jpg)
