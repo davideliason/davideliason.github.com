@@ -8,7 +8,7 @@ author_profile: true
 ---
 
 
-I'm entrolled in the MongoDB University M101JS class, already entering week 4!, and it's been a deep dive in CRUD. I've been taking lots of notes, but for me the best thing to make sure it sticks is to put what I'm learning into practice. So, I'm working on tying in a MongoDB instance to node.js + express. I'm going to share what I learn as I go along.
+I'm enrolled in the MongoDB University M101JS class, already entering week 4!, and it's been a deep dive in CRUD. I've been taking lots of notes, but for me the best thing to make sure it sticks is to put what I'm learning into practice. So, I'm working on tying in a MongoDB instance to node.js + express. I'm going to share what I learn as I go along.
 
 Assuming that the goal is to build an app so that a user can log in via authentication, and then query data saved in the database, building in sessions will be important so that there is state in terms of that user's experience.
 
