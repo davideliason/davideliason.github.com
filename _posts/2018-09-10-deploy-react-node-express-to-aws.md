@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Deploy React + Node/Express to AWS part 1
-date:   2018-09-1017:03:27 -0700
+date:   2018-09-10 12:03:27 -0700
 categories: express
 author_profile: true
 
