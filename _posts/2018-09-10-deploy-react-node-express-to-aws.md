@@ -21,4 +21,33 @@ Anywho, using CRA to create /client sub-folder within main app. Now, how to uplo
 ```
 aws s3 cp build/ s3://<bucket name/> --recursive
 ```
-That command will use the AWS CLI to upload the production build files from your local computer to the bucket. Just remember to set the bucket permissions to public accessible :)
+That command will use the AWS CLI to upload the production build files from your local computer to the bucket. Just remember to set the bucket permissions to public accessible :) See [this post](https://stackoverflow.com/questions/5123208/upload-folder-with-subfolders-using-s3-and-the-aws-console) for more info, as well as setting up CDN.
+
+Now on to the back-end with EC2 setup. And before doing that, we need to set up the VPC! So, back to AWS and set up the VPC, creating one with the help of [AWS docs](https://docs.aws.amazon.com/vpc/latest/userguide/working-with-vpcs.html). I used the biggest IPv4 CIDR block range of 10.0.0.0/16, with a public subnet of 10.0.1.0/24 within AZ us-west-2a. Created a second (private) subnet of 10.0.2.0/24 within AZ us-west-2b, which is where the EC2 instance will be instantiated. Attached an Internet Gateway to the VPC.
+
+Actually, I decided to put the EC2 instance in the public subnet, so as to concentrate on the application itself. 
+
+
+So, now I SSHd into the instance, updated, and installed node.js. See [AWS article](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html). Current version = 8.11.4
+
+
+Now, it's time to follow [another AWS doc](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html), this time for installing node.js
+
+Activated nvm and installed latest version 8.11.4, then created a simple express server with a single route rendering the inflamous 'hello world' :) In order to do that, I had to add an incoming route at port 3000, for test purposes. (it normally uses port 80, but that's a restricted web port). In order to run the app on port 80, we'll need to do something like use nginx, and maybe use PM2 to keep the app running on restart too. Good article on spinning up that express server [here](https://hackernoon.com/tutorial-creating-and-managing-a-node-js-server-on-aws-part-1-d67367ac5171).
+
+Now, to change http traffic to port 80, via this [post](https://hackernoon.com/tutorial-creating-and-managing-a-node-js-server-on-aws-part-2-5fbdea95f8a1).
+
+Just discovered that the Linux dist AMI I used doesn't support nginx, at least not easily, so time to delete and add Ubuntu. Sigh.
+
+
+Okay, it's all good practice! So, right now there's an Ubuntu server running express on latest node version, running on port 3000. We'd like to switch this to port 80 so that we can use this public port and routing. That is, port 80 is the default port for HTTP traffic.
+
+So, first things first! Nginx is great for being used as a router, so after system OS update, install nginx. This gets nginx to run automatically, so going to port 80 now shows that homepage. We are making progress!
+
+Add config file in sites-enabled that forwards HTTP traffic from port 80 to port 3000. Now, after I shut down the server and restart it, I can use port 80 to render my express app. Woot! 
+
+Now, onwards to process manager, using PM2, to restart server.
+
+
+
+
