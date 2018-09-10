@@ -7,6 +7,7 @@ author_profile: true
 
 ---
 
+
 My goal is to create an application where users log in, are authenticated, and once that is completed, they can Create, Read, Update, and Delete todo tasks. I'd also like for the user to be able to upload an image, as part of that todo.
 
 In order to do that, I included the [multer module](https://www.npmjs.com/package/multer). Each file contains a variety of field keys: fieldname, originalname, encoding, mimetype, size, detination, filename, path, buffer. We can call multer, passing in a couple possible options: dest/storage, fileFilter, limits, preserverPath. In this case, I've created a storage option and a fileFilter option. Within each of those options, different configuration was needed. 
