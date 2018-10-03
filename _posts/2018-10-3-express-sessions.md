@@ -18,3 +18,7 @@ With the module express-session, we still use a cookie but it's behind the scene
 The sessionId will automatically be saved and sent in each client request to the server (inside the header).
 
 We use a *session store* to hold data because otherwise, if the server is restarted or the client-side application is closed, then the data will be lost.
+
+In my app, I attached a numbers key to the sessions object and updated that value with every subsequent request sent to the server. For me, it's helpful to see how these things actually work, because the documentation can be pretty lofty and wordy! ;)
+
+I used the 'session-file=store' module to create a local store instance file wherein the session data is saved. This is a baby-step for moving from cookie storage which will evaporate once the session is done. The session data is saved to that file.
