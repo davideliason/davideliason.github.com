@@ -22,3 +22,7 @@ We use a *session store* to hold data because otherwise, if the server is restar
 In my app, I attached a numbers key to the sessions object and updated that value with every subsequent request sent to the server. For me, it's helpful to see how these things actually work, because the documentation can be pretty lofty and wordy! ;)
 
 I used the 'session-file=store' module to create a local store instance file wherein the session data is saved. This is a baby-step for moving from cookie storage which will evaporate once the session is done. The session data is saved to that file.
+
+What really drilled down for me was using Postman to send a GET request to the '/' route, and seeing the 'set cookie' within the header as part of the response. That same value, the sessionID, is what is the title of the session-file-store. So the session is created the first time, but subsequent GET requests to that route are within that session. So, on the client side we have the sessionId but all the data attached to that sessionId is stored on the server side, within that store. So, conceptually it makes sense how the cookie is providing continuity and an extra degree of security, and also how instead of saving the data to a file, it could instead be saved to the database or redis. 
+
+But that's another post :)
