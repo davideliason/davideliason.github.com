@@ -1,0 +1,17 @@
+---
+layout: single
+title: sessions in express
+date:   2018-10-312:03:27 -0700
+categories: express, react
+author_profile: true
+
+---
+
+In previous recent posts I described building out a MERN app with an emphasis on tying in the database with the server with a simple view using react. With that as a foundation, we can now start building in more advanced functionality, and one of the fundamental pieces of that, for an app that works with users and data, is sessions. This post reflects some of what I've learned in bringing in this funcitonality.
+
+A [really great tutorial](https://nodewebapps.com/2017/06/18/how-do-nodejs-sessions-work/) describes that sessions are needed for applications because they create application state. That is, we need to have some way to have persistence of a user's experience within the app so that we can serve up continuity. The way that I like to think of it is that it's like going to see a therapist, and so you set up an appointment to have a *session* with the therapist. The session is going to involve notes so that what you covered during that session will be remembered. Who wants to go back to the therapist and start all over again each time?! That's what the notes are for, to create that persistence. The notes, actually, are what the *cookie* does; it holds session data.
+
+As that tutorial describes, there are a couple ways of storing session data (to continue the analogy, ways to store those notes from the therapy session): application memory (after the therapy session, the therapist burns the notes), in a cookie (this is sent to and fro the server to the client and the cookie actually hold the data - not as secure), in a memory cache (such as redis) wherein the cookie holds just the sssionId and the data is stored in another server running redis, and finally in a database (very similar to memory cache in the setup).
+
+With the module express-session, we still use a cookie but it's behind the scenes. As this modules's [docs](https://www.npmjs.com/package/express-session) note, we need to have q unique session value, which we can use via the [uuid](https://www.npmjs.com/package/uuid) module. The documentation also notes the use of uid-safe for ID generation too.The session data is not saved in the cookie itself with this module, session data is saved server-side.
+
