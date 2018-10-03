@@ -15,3 +15,6 @@ As that tutorial describes, there are a couple ways of storing session data (to 
 
 With the module express-session, we still use a cookie but it's behind the scenes. As this modules's [docs](https://www.npmjs.com/package/express-session) note, we need to have q unique session value, which we can use via the [uuid](https://www.npmjs.com/package/uuid) module. The documentation also notes the use of uid-safe for ID generation too.The session data is not saved in the cookie itself with this module, session data is saved server-side.
 
+The sessionId will automatically be saved and sent in each client request to the server (inside the header).
+
+We use a *session store* to hold data because otherwise, if the server is restarted or the client-side application is closed, then the data will be lost.
