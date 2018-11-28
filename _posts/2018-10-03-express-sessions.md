@@ -1,7 +1,7 @@
 ---
 layout: single
 title: sessions in express
-date:   2018-10-312:03:27 -0700
+date:   2018-10-03
 categories: express, react
 author_profile: true
 
